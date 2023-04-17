@@ -3,6 +3,7 @@ CloudGPT
 
 ## AWS vulnerability scanner ##
 Scan customer managed AWS policies for vulnerabilities using ChatGPT.
+Automatically redacts the customer account number before sending the policies to ChatGPT.
 
 Follow me on Twitter ([Mike Felch - @ustayready](https://twitter.com/ustayready)) 
 
