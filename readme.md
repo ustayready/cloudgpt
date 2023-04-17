@@ -3,7 +3,8 @@ CloudGPT
 
 ## AWS vulnerability scanner ##
 Scan customer managed AWS policies for vulnerabilities using ChatGPT.
-Automatically redacts the customer account number before sending the policies to ChatGPT.
+
+This tool automatically redacts the customer account number by replacing them with a randomly generated account number before sending the policies to ChatGPT. Knowledge of a vulnerable policy without knowledge of the account that has the policy provisioned, is useless to OpenAI. Additionally, the internal prompt has continually returned responses starting with Yes or No, therefore, we are just parsing this portion of the response to determine vulnerability. Those using the tool should manually review the responses in the output to determine context of the response. It's not perfect but it's absolutely helpful.
 
 Follow me on Twitter ([Mike Felch - @ustayready](https://twitter.com/ustayready)) 
 
